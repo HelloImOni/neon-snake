@@ -5,7 +5,7 @@
   "Desc": "The real Neon Snake Autopilot eats, grows, scores, and survives as an offline desktop wallpaper.",
   "Author": "Neon Snake",
   "License": "MIT",
-  "Contact": "https://github.com/HeyImDionysus/neon-snake",
+  "Contact": "https://github.com/HelloImOni/neon-snake",
   "Type": 1,
   "FileName": "index.html",
   "Arguments": "--pause-event true",
