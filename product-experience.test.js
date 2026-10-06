@@ -66,7 +66,7 @@ for (const href of downloads.match(/href="\/downloads\/[^"]+"/g) || []) {
   const file = path.join(__dirname, "public", href.slice(6, -1));
   assert.equal(fs.existsSync(file), true, `Linked download must exist: ${href}`);
 }
-assert.doesNotMatch(downloads, /github\.com\/HeyImDionysus\/neon-snake\/raw/);
+assert.doesNotMatch(downloads, /github\.com\/HelloImOni\/neon-snake\/raw/);
 assert.equal(fs.existsSync(path.join(__dirname, "downloads")), false, "Downloads are published only from public/downloads");
 assert.match(vercel, /Content-Disposition/);
 process.stdout.write("PASS downloads provide direct platform actions and a live truthful preview\n");
